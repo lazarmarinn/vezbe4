@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Century Gothic;
     color: #333;
     letter-spacing: 0.5px;
     background-color: #f2f2f2;
@@ -65,16 +65,19 @@ h1, h2 {
 
 .obrisi {
     float: right;
-    background: #ff3333;
-    padding: 8px;
-    border-radius: 50%;
+    background: green;
+    text-transform: uppercase;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
     cursor: pointer;
     color: white;
     font-size: 14px;
+    border: .5px solid lightgreen;
+    transition: ease-in .2s;
 }
 
 .obrisi:hover {
-    background: #cc0000;
+    background: darkgreen;
 }
 
 #dodaj-destinaciju {
